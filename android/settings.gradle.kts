@@ -22,4 +22,5 @@ dependencyResolutionManagement {
 rootProject.name = "CardCollectionTracker"
 include(":app")
 include(":core:common")
+include(":core:ui")
  
