@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Card Collection Tracker"
+rootProject.name = "CardCollectionTracker"
 include(":app")
- 
+include(":core:common")
+include(":core:ui")
+include(":core:domain")
+include(":core:network")
+include(":core:database")
