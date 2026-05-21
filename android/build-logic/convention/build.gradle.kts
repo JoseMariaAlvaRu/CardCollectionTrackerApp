@@ -14,3 +14,12 @@ dependencies {
     compileOnly(libs.kotlin.gradle.plugin)
     compileOnly(libs.ksp.gradle.plugin)
 }
+
+gradlePlugin {
+    plugins {
+        register("androidLibrary") {
+            id = "convention.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
+    }
+}
