@@ -3,6 +3,9 @@ plugins {
 }
 
 dependencies {
+    // Common (Result, AppError)
+    implementation(project(":core:common"))
+
     // Coroutines for Flow-based repository interfaces
     implementation(libs.kotlinx.coroutines.android)
 

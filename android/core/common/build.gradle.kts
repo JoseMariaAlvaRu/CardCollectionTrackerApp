@@ -1,9 +1,5 @@
 plugins {
-    id("convention.android.library")
-}
-
-android {
-    namespace = "mx.com.sheff.cardcollectiontracker.core.common"
+    id("convention.kotlin.library")
 }
 
 dependencies {
